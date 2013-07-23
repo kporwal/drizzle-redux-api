@@ -60,7 +60,7 @@ int main(void)
 	drizzle_binlog_st *binlog;
 	drizzle_return_t ret;
 
-	con= drizzle_create("localhost", 3306, "root", "rai@iiit", "", NULL);
+	con= drizzle_create("localhost", 3306, "root", "123", "", NULL);
 	ret= drizzle_connect(con);
 	if (ret != DRIZZLE_RETURN_OK)
 	{
